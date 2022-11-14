@@ -1,0 +1,46 @@
+.header {
+  top: 0;
+
+  background: linear-gradient(90.88deg, #1F252F 10.51%, #1F252F 93.82%);
+
+  a {
+    color: #FFFFFF;
+  }
+
+}
+
+.footer, .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  height: 80px;
+
+  ul {
+    display: flex;
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  li {
+    &:not(:last-of-type) {
+      margin-right: 12px;
+    }
+
+
+  }
+}
+
+.footer {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  bottom: 0;
+
+  a {
+    color: #1f252f;
+  }
+}
